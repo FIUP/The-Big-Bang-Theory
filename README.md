@@ -1,5 +1,6 @@
 # The Big Bang Theory | Tecnologie web
-*Il sito è stato creato per un esercizio nell'ambito del corso di Tecnologie web e non rappresenta quindi la serie di The Big Bang Theory. I testi sono stati gentilmente presi in presito da Wikipedia.*
+*Website created for educational purposes (Web Technologies university course) and does not represent 'The Big Bang Theory' series. Texts are kindly borrowed from [wikipedia](https://en.wikipedia.org/wiki/Big_bang_theory).*
+
 
 [![W3C](http://www.w3.org/Icons/valid-xhtml10)](https://validator.w3.org/check?uri=https%3A%2F%2Ffiup.github.io%2Ftbbt%2F&charset=%28detect+automatically%29&doctype=XHTML+1.0+Strict&group=0)
 

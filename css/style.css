@@ -19,6 +19,10 @@
 	list-style: none;
 }
 
+#footer {
+	padding-top: 5em;
+}
+
 #footer p {
 	text-align: center;
 }

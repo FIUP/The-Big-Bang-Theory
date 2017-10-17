@@ -27,10 +27,10 @@
 	text-align: center;
 }
 
-#protagonisti {
-	list-style: none;
+#protagonisti dt {
+	font-weight: bold;
 }
 
-#protagonisti p {
-	margin-left: 2em;
+#protagonisti dd {
+	margin-left: 1em;
 }

@@ -1,3 +1,28 @@
+.title {
+	text-align: center;
+}
+
+#title {
+	font-style: bold;
+}
+
+#navbar {
+	background-color: red;
+	color: white;
+}
+
+#nav ul {
+	list-style: none;
+}
+
 #footer p {
 	text-align: center;
+}
+
+#protagonisti {
+	list-style: none;
+}
+
+#protagonisti p {
+	margin-left: 20px;
 }

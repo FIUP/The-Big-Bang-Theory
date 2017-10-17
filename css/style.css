@@ -10,12 +10,12 @@
 	font-style: bold;
 }
 
-#navbar {
+#breadcrumb {
 	background-color: red;
 	color: white;
 }
 
-#nav ul {
+#menu ul {
 	list-style: none;
 }
 

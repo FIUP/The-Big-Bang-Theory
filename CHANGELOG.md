@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 2017-10-24
+
+### Fixed
+- W3C (XHTML 1.0) internationalization lang attribute
+
 ## 0.1.1 - 2017-10-17
 
 ### Fixed

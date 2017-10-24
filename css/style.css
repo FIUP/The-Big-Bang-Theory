@@ -17,6 +17,11 @@ body {
     float: right;
 }
 
+.row {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 #logo {
     max-height: 10em;
 }

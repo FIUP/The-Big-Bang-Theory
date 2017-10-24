@@ -18,8 +18,13 @@ html,
 }
 
 .row {
-    white-space: nowrap;
-    overflow: hidden;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.row > * { /* select all direct children */
+    display: table-cell;
 }
 
 #logo {
@@ -45,6 +50,11 @@ html,
 
 #footer p {
     text-align: center;
+    width: 75%;
+}
+
+#footer > * {
+    vertical-align: middle;
 }
 
 #protagonisti dt {

@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Usage
+
 Although the website is bare, useless, ugly, at least is [W3C compliant](https://validator.w3.org/check?uri=https%3A%2F%2Ffiup.github.io%2Ftbbt%2F&charset=%28detect+automatically%29&doctype=XHTML+1.0+Strict&group=0).
 
 

@@ -23,6 +23,8 @@ body {
 /**
  * links
  */
+a:link {}
+
 a:visited {
     color: #BD091B;
 }
@@ -94,12 +96,9 @@ a:visited {
  */
 
 .breadcrumb {
-    height: 3em;
+    height: 1em;
     background-color: #BD091B;
-}
-
-.breadcrumb p {
-    padding: 1em;
+    padding: 0.5em;
     color: white;
     font-weight: bold;
 }
@@ -169,13 +168,14 @@ a:visited {
 
 #protagonisti dd {
     padding-top: 1em;
-    padding-left: 1em;
+    margin-left: 18em;
+    margin-right: 2em;
     text-align: justify;
 }
 
-#protagonisti img {
-    padding-top: 1em;
-    padding-left: 1em;
+#protagonisti dd img {
+    margin-left: -14em;
     max-height: 20em;
+    max-width: 12em;
     float: left;
 }

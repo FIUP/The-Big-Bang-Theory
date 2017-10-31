@@ -1,0 +1,181 @@
+* {  /* universal selector */
+    padding: 0em;  /* reset default values in different browsers */
+    margin: 0em;
+}
+
+
+/**
+ * body
+ */
+
+html, body {
+    max-width: 1024px;
+    margin: auto;  /* let browser manage positioning */
+    /* DO NOT USE 'font con grazie' like Times in screens. Just on paper. Gaggi docet. */
+    font-family: Verdana, Arial, Helvetica, sans-serif;  /* general -> particular */
+    font-size: 100%;  /* 100% means as big as user prefers it */
+}
+
+body {
+    border: 1px solid #DDD;  /* just here otherwise double border */
+}
+
+/**
+ * links
+ */
+a:link {}
+
+a:visited {
+    color: #BD091B;
+}
+
+/**
+ * left and right
+ */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/**
+ * table rows
+ */
+
+.row {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.row > * { /* select all direct children */
+    display: table-cell;
+}
+
+/**
+ * header
+ */
+
+#header {
+    text-align: center;  /* centered text */
+    min-height: 10.5em;  /* to include logo */
+    padding: 1em;  /* give some room */
+}
+
+#header h1 {
+    color: #BD091B;  /* unipd main color */
+    font-style: bold;
+    font-size: 3.5em;
+}
+
+#header h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+#logo {
+    float: left;  /* to the left! now! */
+    width: 10em;  /* resize big image */
+    margin: 0.5em;
+}
+
+/**
+ * titles
+ */
+
+#title {
+    font-weight: bold;
+}
+
+/**
+ * path
+ */
+
+.breadcrumb {
+    height: 1em;
+    background-color: #BD091B;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+}
+
+/**
+ * menu
+ */
+
+#menu {
+    padding: 1em;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    padding-top: 0.5em;
+}
+
+/**
+ * main content
+ */
+#content {
+    margin-top: -8em;
+    padding-left: 12em;
+}
+
+#content img {
+    display: block;  /*for the img inside your div */ 
+    margin: 0 auto;
+    max-width: 48em;
+}
+
+/**
+ * titles
+ */
+.title {
+    text-align: center;
+    font-style: bold;
+}
+
+/**
+ * footer
+ */
+
+#footer {
+    padding-top: 5em;
+}
+
+#footer p {
+    text-align: center;
+    width: 75%;
+}
+
+#footer > * {
+    vertical-align: middle;
+}
+
+/**
+ * protagonists page
+ */
+
+#protagonisti dt {
+    margin-top: 10em;
+}
+
+#protagonisti dd {
+    padding-top: 1em;
+    margin-left: 18em;
+    margin-right: 2em;
+    text-align: justify;
+}
+
+#protagonisti dd img {
+    margin-left: -14em;
+    max-height: 20em;
+    max-width: 12em;
+    float: left;
+}

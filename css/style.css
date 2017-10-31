@@ -93,13 +93,13 @@ a:visited {
  * path
  */
 
-#breadcrumb {
-    height: 2em;
+.breadcrumb {
+    height: 3em;
     background-color: #BD091B;
 }
 
-#breadcrumb p {
-    padding: 0.5em;
+.breadcrumb p {
+    padding: 1em;
     color: white;
     font-weight: bold;
 }
@@ -164,9 +164,18 @@ a:visited {
  */
 
 #protagonisti dt {
-    font-weight: bold;
+    margin-top: 10em;
 }
 
 #protagonisti dd {
-    margin-left: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    text-align: justify;
+}
+
+#protagonisti img {
+    padding-top: 1em;
+    padding-left: 1em;
+    max-height: 20em;
+    float: left;
 }

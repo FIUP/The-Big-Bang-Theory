@@ -126,11 +126,11 @@ a:visited {
 #content {
     margin-top: -8em;
     padding-left: 12em;
-    /*padding-right: 8em;*/
 }
 
 #content img {
-    left: 50%;
+    display: block;  /*for the img inside your div */ 
+    margin: 0 auto;
     max-width: 48em;
 }
 

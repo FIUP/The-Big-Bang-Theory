@@ -1,8 +1,12 @@
 * {  /* universal selector */
-    padding: 0;  /* reset default values in different browsers */
-    margin: 0;
+    padding: 0em;  /* reset default values in different browsers */
+    margin: 0em;
 }
 
+
+/**
+ * body
+ */
 
 html, body {
     max-width: 1024px;
@@ -16,9 +20,16 @@ body {
     border: 1px solid #DDD;  /* just here otherwise double border */
 }
 
-.title {
-    text-align: center;
+/**
+ * links
+ */
+a:visited {
+    color: #BD091B;
 }
+
+/**
+ * left and right
+ */
 
 .left {
     float: left;
@@ -27,6 +38,10 @@ body {
 .right {
     float: right;
 }
+
+/**
+ * table rows
+ */
 
 .row {
     width: 100%;
@@ -38,24 +53,98 @@ body {
     display: table-cell;
 }
 
+/**
+ * header
+ */
+
+#header {
+    text-align: center;  /* centered text */
+    min-height: 10.5em;  /* to include logo */
+    padding: 1em;  /* give some room */
+}
+
+#header h1 {
+    color: #BD091B;  /* unipd main color */
+    font-style: bold;
+    font-size: 3.5em;
+}
+
+#header h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
 #logo {
     float: left;  /* to the left! now! */
     width: 10em;  /* resize big image */
+    margin: 0.5em;
 }
+
+/**
+ * titles
+ */
 
 #title {
     font-weight: bold;
 }
 
+/**
+ * path
+ */
+
 #breadcrumb {
-    background-color: red;
+    height: 2em;
+    background-color: #BD091B;
+}
+
+#breadcrumb p {
+    padding: 0.5em;
     color: white;
-    padding-top: 2em;
+    font-weight: bold;
+}
+
+/**
+ * menu
+ */
+
+#menu {
+    padding: 1em;
 }
 
 #menu ul {
     list-style: none;
 }
+
+#menu ul li {
+    padding-top: 0.5em;
+}
+
+/**
+ * main content
+ */
+#content {
+    margin-top: -8em;
+    padding-left: 12em;
+    /*padding-right: 8em;*/
+}
+
+#content img {
+    left: 50%;
+    max-width: 48em;
+}
+
+/**
+ * titles
+ */
+.title {
+    text-align: center;
+    font-style: bold;
+}
+
+/**
+ * footer
+ */
 
 #footer {
     padding-top: 5em;
@@ -69,6 +158,10 @@ body {
 #footer > * {
     vertical-align: middle;
 }
+
+/**
+ * protagonists page
+ */
 
 #protagonisti dt {
     font-weight: bold;

@@ -5,7 +5,13 @@
 
 
 html, body {
+    max-width: 1024px;
+    margin: auto;  /* let browser manage positioning */
     font-family: Verdana, Helvetica, sans-serif;
+}
+
+body {
+    border: 1px solid #DDD;  /* just here otherwise double border */
 }
 
 .title {

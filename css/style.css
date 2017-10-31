@@ -1,6 +1,10 @@
-html, body {
+* {  /* universal selector */
+    padding: 0;  /* reset default values in different browsers */
     margin: 0;
-    padding: 0;
+}
+
+
+html, body {
     font-family: Verdana, Helvetica, sans-serif;
 }
 

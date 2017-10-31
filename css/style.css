@@ -7,7 +7,8 @@
 html, body {
     max-width: 1024px;
     margin: auto;  /* let browser manage positioning */
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;  /* general -> particular */
+    font-size: 100%;  /* 100% means as big as user prefers it */
 }
 
 body {

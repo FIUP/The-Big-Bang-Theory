@@ -9,7 +9,6 @@
  */
 
 html, body {
-    max-width: 1024px;
     margin: auto;  /* let browser manage positioning */
     /* DO NOT USE 'font con grazie' like Times in screens. Just on paper. Gaggi docet. */
     font-family: Verdana, Arial, Helvetica, sans-serif;  /* general -> particular */
